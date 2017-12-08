@@ -1,14 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mobius-software.mqtt</groupId>
 	<artifactId>mobius-public-parent</artifactId>
 	<version>1.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
+
 	<name>mobius-public-parent</name>
 	<description>Mobius public Parent</description>
 	<url>http://www.iotbroker.cloud</url>
-	
+
 	<licenses>
 		<license>
 			<name>LGPL 2.1</name>
@@ -17,18 +18,44 @@
 			<comments>GNU Lesser General Public License</comments>
 		</license>
 	</licenses>
-	
+
 	<organization>
 		<name>Mobius Software</name>
 		<url>http://www.mobius-software.com</url>
 	</organization>
-	
+
 	<scm>
 		<url>https://github.com/mobius-software-ltd/mqtt-parser</url>
 		<connection>scm:git:git://github.com:mobius-software-ltd/mobius-public-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:mobius-software-ltd/mobius-public-parent.git </developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+		<tag>HEAD</tag>
+	</scm>
+
+	<developers>
+		<developer>
+			<id>Yulian</id>
+			<name>Yulian Oifa</name>
+			<email>yulian.oifa@mobius-software.com</email>
+			<organization>Mobius Software</organization>
+			<organizationUrl>http://www.mobius-software.com</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>+2</timezone>
+		</developer>
+
+		<developer>
+			<id>Anatoly</id>
+			<name>Anatoly Satanovskiy</name>
+			<email>anatoly.satanovskiy@mobius-software.com</email>
+			<organization>Mobius Software</organization>
+			<organizationUrl>http://www.mobius-software.com</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>+2</timezone>
+		</developer>
+	</developers>
 	
 	<build>
 		<plugins>
@@ -109,7 +136,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 	<distributionManagement>
 		<repository>
 			<id>mobius-public-releases-repository</id>
@@ -122,5 +149,5 @@
 			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
-	
+
 </project>
