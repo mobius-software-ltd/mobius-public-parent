@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mobius-software</groupId>
 	<artifactId>mobius-public-parent</artifactId>
-	<version>1.0-Final</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	
 	<name>mobius-public-paren</name>
@@ -26,8 +26,8 @@
 	
 	<scm>
 		<url>https://github.com/mobius-software-ltd/mqtt-parser</url>
-		<connection>scm:git:git://github.com:mobius-software-ltd/mqtt-parser.git</connection>
-		<developerConnection>scm:git:git@github.com:mobius-software-ltd/mqtt-parser.git</developerConnection>
+		<connection>scm:git:git://github.com:mobius-software-ltd/mobius-public-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:mobius-software-ltd/mobius-public-parent.git </developerConnection>
 	</scm>
 	
 	<build>
