@@ -24,7 +24,7 @@
 	</organization>
 
 	<scm>
-		<url>https://github.com/mobius-software-ltd/mqtt-parser</url>
+		<url>https://github.com/mobius-software-ltd/mobius-public-parent</url>
 		<connection>scm:git:git://github.com:mobius-software-ltd/mobius-public-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:mobius-software-ltd/mobius-public-parent.git </developerConnection>
 		<tag>HEAD</tag>
