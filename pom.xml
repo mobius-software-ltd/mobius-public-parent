@@ -124,7 +124,7 @@
 				<configuration>
 					<mavenExecutorId>forked-path</mavenExecutorId>
 					<useReleaseProfile>false</useReleaseProfile>
-					<arguments>-P!no-gpg</arguments>
+					<arguments>-DskipTests -P!no-gpg</arguments>
 				</configuration>
 			</plugin>
 			<plugin>
