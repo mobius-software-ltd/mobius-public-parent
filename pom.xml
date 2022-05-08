@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mobius-software</groupId>
 	<artifactId>mobius-public-parent</artifactId>
-	<version>1.0.9-SNAPSHOT</version>
+	<version>1.0.9</version>
 	<packaging>pom</packaging>
 
 	<name>mobius-public-parent</name>
@@ -27,7 +27,7 @@
 		<url>https://github.com/mobius-software-ltd/mobius-public-parent</url>
 		<connection>scm:git:git://github.com:mobius-software-ltd/mobius-public-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:mobius-software-ltd/mobius-public-parent.git </developerConnection>
-		<tag>mobius-public-parent-1.0.7</tag>
+		<tag>mobius-public-parent-1.0.9</tag>
 	</scm>
 
 	<developers>
