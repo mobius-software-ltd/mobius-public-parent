@@ -162,16 +162,14 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.sonatype.plugins</groupId>
-				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>1.6.7</version>
-				<extensions>true</extensions>
-				<configuration>
-					<serverId>mobius-public-releases-repository</serverId>
-					<nexusUrl>https://oss.sonatype.org/</nexusUrl>
-					<autoReleaseAfterClose>true</autoReleaseAfterClose>
-				</configuration>
-			</plugin>
+          		<groupId>org.sonatype.central</groupId>
+          		<artifactId>central-publishing-maven-plugin</artifactId>
+          		<version>0.7.0</version>
+          		<extensions>true</extensions>
+          		<configuration>
+            		<publishingServerId>mobius-public-releases-repository</publishingServerId>
+          		</configuration>
+        	</plugin>
 		</plugins>
 	</build>
 
